@@ -117,6 +117,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
                             android:orientation="horizontal">
 
                             <TextView
@@ -125,12 +126,148 @@
                                 android:textSize="15dp"
                                 android:textColor="@color/colorPlomo"
                                 android:text="@string/texto1"
+                                android:layout_weight="1"
+                                />
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_candado"
                                 />
                         </LinearLayout>
                     </LinearLayout>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="17dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Info y nÃºmero de telÃ©fono"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hola a todos mis contactos..."
+                            android:textColor="@color/colorNegro"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 de septiembre"
+                            android:textColor="@color/colorPlomo1"
+                            android:textSize="13dp" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="11dp"
+                        android:background="@color/colorPlomo"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="11dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="+591 72464162"
+                                android:textColor="@color/colorNegro"
+                                android:textSize="17dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="MÃ³vil"
+                                android:textColor="@color/colorPlomo1"
+                                android:textSize="15dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="2"
+                            android:orientation="horizontal"
+                            android:paddingBottom="20dp"
+                            android:paddingTop="20dp">
+
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/ic_mensaje"
+
+                                />
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/ic_telefono"
+
+                                />
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginRight="5dp"
+                                android:src="@drawable/ic_camara"
+
+                                />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
 
 
         </LinearLayout>
